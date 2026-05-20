@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+  <driver id="gaussdb" name="GaussDB" dialect="PostgreSQL" driver-class="com.huawei.gauss200.jdbc.Driver">
+    <url-template name="default"
+                  template="jdbc:gaussdb://{host::localhost}[:{port::8000}]/{database::gaussdb}[\?&lt;&amp;,user={user},password={password},{:identifier}={:param}&gt;]"/>
+    <url-template name="IAM"
+                  template="jdbc:dws:iam://{host::dws-IAM-demo}:{region:host:eu-dublin-1}/{database::gaussdb}[\?&lt;&amp;,{:identifier}={:param}&gt;]"/>
+    <url-template name="default"
+                  template="jdbc:postgresql://{host::localhost}[:{port::8000}]/{database::gaussdb}[\?&lt;&amp;,user={user},password={password},{:identifier}={:param}&gt;]"/>
+    <option name="auto-sync" value="true"/>
+    <artifact id="GaussDB" rolling="true"/>
+  </driver>
+</drivers>

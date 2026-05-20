@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+
+  <artifact id="MySQL ConnectorJ" name="MySQL Connector/J">
+    <property name="driver.class" value="com.mysql.cj.jdbc.Driver"/>
+    <version version="9.5.0">
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL ConnectorJ/9.5.0/mysql-connector-j-9.5.0.jar"/>
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL ConnectorJ/9.5.0/protobuf-java-4.31.1.jar"/>
+      <item type="license" url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL ConnectorJ/9.5.0/LICENSE.txt"/>
+    </version>
+  </artifact>
+
+  <artifact id="PostgreSQL" name="PostgreSQL">
+    <property name="driver.class" value="org.postgresql.Driver"/>
+    <version version="42.6.0">
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.6.0/postgresql-42.6.0.jar"/>
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.6.0/checker-qual-3.31.0.jar"/>
+      <item type="license" url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/42.6.0/postgresql-driver-license.txt"/>
+    </version>
+  </artifact>
+
+  <artifact id="MongoDB" name="MongoDB JDBC Driver">
+    <property name="driver.class" value="com.dbschema.MongoJdbcDriver"/>
+    <version version="1.21">
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MongoDB/1.21/mongo-jdbc-standalone-1.21.jar"/>
+      <item type="license" url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MongoDB/1.21/mongodb-license.txt"/>
+    </version>
+  </artifact>
+
+  <artifact id="ClickHouse" name="ClickHouse JDBC">
+    <property name="driver.class" value="ru.yandex.clickhouse.ClickHouseDriver"/>
+    <version version="0.9.4">
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/ClickHouse/0.9.4/clickhouse-jdbc-0.9.4-all.jar"/>
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/ClickHouse/0.9.4/slf4j-api-2.0.17.jar"/>
+    </version>
+  </artifact>
+
+  <artifact id="Redis" name="Redis JDBC Driver">
+    <property name="driver.class" value="jdbc.RedisDriver"/>
+    <version version="1.6">
+      <item url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Redis/1.6/redis-jdbc-driver-1.6.jar"/>
+      <item type="license" url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Redis/1.6/LICENSE.txt"/>
+    </version>
+  </artifact>
+
+</artifacts>

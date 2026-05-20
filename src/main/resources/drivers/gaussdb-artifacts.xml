@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+  <artifact id="GaussDB" name="GaussDB JDBC Driver">
+    <version version="8.6.1">
+      <item name="gsjdbc4.jar"
+            url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/GaussDB/8.6.1/huaweicloud-dws-jdbc-8.6.1.jar"/>
+      <item name="gsjdbc200.jar"
+            url="file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/GaussDB/8.6.1/huaweicloud-dws-jdbc-8.6.1-200.jar"/>
+    </version>
+  </artifact>
+</artifacts>
